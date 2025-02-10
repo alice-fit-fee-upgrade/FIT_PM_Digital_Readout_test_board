@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=SCH\FMCP.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NWKSYAMU
-
-[Document2]
 DocumentPath=SCH\ADC5G.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CURNJAQA
 
-[Document3]
+[Document2]
 DocumentPath=SCH\TDC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WSCHHKCJ
 
-[Document4]
+[Document3]
 DocumentPath=SCH\TOP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZIIPXHYS
 
-[Document5]
+[Document4]
 DocumentPath=SCH\ADC5G_FRONTEND.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RWMEIIAZ
 
-[Document6]
+[Document5]
 DocumentPath=SCH\ADC5G_DIGITALIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YXGUZHQY
 
-[Document7]
+[Document6]
 DocumentPath=SCH\ADC5G_POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EALPQQMJ
 
-[Document8]
+[Document7]
 DocumentPath=SCH\ADC5G_DIGITALIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=SCH\ADC5G_FRONTEND.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=SCH\ADC5G_PLL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNIQCABA
 
-[Document11]
+[Document10]
 DocumentPath=SCH\ADC5G_PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,24 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=SCH\FMCP.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
+[Document11]
 DocumentPath=LIB\DAC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IZIWLEHM
 
-[Document14]
+[Document12]
 DocumentPath=SCH\TDC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document13]
 DocumentPath=LIB\SPREAD_BUFFER.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,14 +270,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OJUNGEQS
 
-[Document16]
+[Document14]
 DocumentPath=SCH\TDC_CH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -321,14 +287,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MACXWNBG
 
-[Document17]
+[Document15]
 DocumentPath=SCH\LOCAL_POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -338,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OTBHMYBT
 
-[Document18]
+[Document16]
 DocumentPath=LIB\ADC5G-TDC-FMCP.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,6 +320,91 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document17]
+DocumentPath=SCH\FMC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PRUMCBTW
+
+[Document18]
+DocumentPath=SCH\FMC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document19]
+DocumentPath=LIB\MISCELANOUS.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KLJYMNAL
+
+[Document20]
+DocumentPath=TDC_VTUNE_DAC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VQZCROFU
+
+[Document21]
+DocumentPath=FMC_EEPROM.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VAWLVTJP
 
 [Configuration1]
 Name=Sources
